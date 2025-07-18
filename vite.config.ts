@@ -19,12 +19,14 @@ export default defineConfig({
         orientation: 'portrait-primary',
         scope: '/',
         start_url: '/',
+        lang: 'en',
+        categories: ['productivity', 'business'],
         icons: [
           {
             src: '/icon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
-            purpose: 'any'
+            purpose: 'any maskable'
           }
         ]
       },
